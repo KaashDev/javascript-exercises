@@ -1,14 +1,6 @@
 const reverseString = function(word) {
-    if(word == ""){
-        return "";
-    }
-
-    reverse = "";
-
-    for(const char of word){
-        reverse = char + reverse;
-    }
-    return reverse;
+    
+    return word.split("").reverse().join("");
 };
 
 // Do not edit below this line
